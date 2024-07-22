@@ -12,8 +12,7 @@ body{
 	justify-content: center;
 }
 .container{
-	/* width: 75%; */
-	max-width: 500px;
+	width: 500px;
 	padding: 30px;
 	border: 1px solid #eeeeee;
 	border-radius: 10px;
@@ -43,4 +42,11 @@ textarea{
 }
 #submit:hover{
 	background-color: #333333;
+}
+
+@media (max-width: 758px) {
+	.container{
+		width: 900px;
+	}
+
 }

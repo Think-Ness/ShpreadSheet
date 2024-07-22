@@ -1,21 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="Google Sheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Fatih</title>
 </head>
-<body>
-	<div class="container">
-		<form method="post" action="https://script.google.com/macros/s/AKfycbzqjLPWq8HBpXbJQDm1pm4Mud5D1xzGbqSGEcoW7xzMx-jCG1SPGzXAUF7qND7RIrQ_Ug/exec" name="contact-form">
-			<h4>Contact Us</h4>
-			<input type="text" name="Nama" placeholder="Name">
-			<input type="text" name="Kelas" placeholder="Class">
-			<input type="text" name="No_Telp" placeholder="Number">
-			<input type="email" name="Email" placeholder="Email">
-			<textarea name="Pesan" rows="7" placeholder="Your Message"></textarea>
-			<input type="submit" value="Submit" id="submit">
-		</form>
-	</div>
 
-	<script src="Google Sheet.js"></script>
+
+<style>
+    *{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'poppins', sans-serif;
+	font-size: 18px;
+}
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	width: 500px;
+    height: 80%;
+	padding: 30px;
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	background-color: #003b5b;
+    align-items: center;
+}
+
+div img {
+        width: 100%;
+        margin-bottom: 3rem
+    }
+
+    button {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+</style>
+<body>
+    <div class="container">
+
+            <img src="Assets/AL-FATIH PUTIH.png" alt="logo-alfatih">
+
+            <div class="Tombol">
+                <button><a href="inputPrestasi.html">Prestasi</a></button>
+                <button><a href="inputPelangaran.html">Pelanggaran</a></button>
+            </div>
+    </div>
 </body>
 </html>
